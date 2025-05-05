@@ -3,7 +3,7 @@ let mark = 'Mark Martin'
 let holly = 'Holly Unlikely'
 let amol = 'Amol Shookup'
 let robin = 'Robin Banks'
-let bijal = 'Bijal Bharadva'
+let name = 'Parth Gandhi'
 const element = (
     <ul style={{'color':'blue', 'fontSize': '24px'}}>
         <li>{sally}</li>
@@ -11,7 +11,7 @@ const element = (
         <li>{holly}</li>
         <li>{amol}</li>
         <li>{robin}</li>
-        <li>{bijal}</li>
+        <li>{name}</li>
     </ul>
 )
 ReactDOM.render(element, document.getElementById('root'))
